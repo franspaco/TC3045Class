@@ -1,0 +1,4 @@
+/home/franspaco/programs/googletest/googletest/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/franspaco/programs/googletest/googletest/cmake-build-debug/CMakeFiles/gtest_main.dir
+/home/franspaco/programs/googletest/googletest/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/franspaco/programs/googletest/googletest/cmake-build-debug/CMakeFiles/gtest.dir
