@@ -16,6 +16,15 @@ public:
     }
 };
 
+TEST_F(PrimoTest, TestNegativos){
+    for(int i = -100; i <= 1; i++){
+        if(isPrime(i)){
+            FAIL();
+        }
+    }
+    SUCCEED();
+}
+
 TEST_F(PrimoTest, TestPrimo){
     ASSERT_TRUE(checkPrime(199));
 }

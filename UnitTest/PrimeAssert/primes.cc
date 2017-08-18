@@ -47,7 +47,7 @@ void rotate(char* str, int length){
 }
 
 int isPrime(int in){
-    if (in < 1) return 0;
+    if (in < 2) return 0;
     int i;
     int lim = (int)sqrt(in) +1;
     for (i = 2; i < lim; i++) {
