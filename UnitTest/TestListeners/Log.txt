@@ -1,0 +1,57 @@
+[Starting Test]
+
+######################
+Starting:
+Test Case: TcnUno
+
+===========
+Starting:
+Test Name: tname
+Failure:
+In line: 99
+      Expected: 1
+To be equal to: -1
+FINISHED!
+Run time for tname: 0.000153
+
+===========
+Starting:
+Test Name: tname2
+FINISHED!
+Run time for tname2: 0.000008
+
+===========
+Starting:
+Test Name: tname3
+Failure:
+In line: 107
+Failed
+FINISHED!
+Run time for tname3: 0.000036
+
+FINISHED TEST CASE!
+Run time for TcnUno: 0.000228
+TOTAL TESTS: 3
+PASSED: 1 tests.
+FAILED: 2 tests.
+
+######################
+Starting:
+Test Case: TcnTimeout
+
+===========
+Starting:
+Test Name: Test1
+Failure:
+In line: 126
+Value of: futureResult.wait_for(std::chrono::milliseconds(100))!= std::future_status::timeout
+  Actual: false
+Expected: true
+FINISHED!
+Run time for Test1: 0.099538
+
+FINISHED TEST CASE!
+Run time for TcnTimeout: 0.099553
+TOTAL TESTS: 1
+PASSED: 0 tests.
+FAILED: 1 tests.
