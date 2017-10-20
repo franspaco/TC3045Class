@@ -21,3 +21,4 @@ services:
             OPENCART_DB_HOST: db
             OPENCART_DB_USER: opencart
             OPENCART_DB_PASSWORD: opencart_pswd##
+            OPENCART_DB_NAME: opencart
