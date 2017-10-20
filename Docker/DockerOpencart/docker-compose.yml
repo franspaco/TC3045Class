@@ -1,0 +1,22 @@
+version: '2'
+services:
+    db:
+        image: mysql:latest
+        environment:
+            - MYSQL_DATABASE=db
+            - MYSQL_USER=opencart
+            - MYSQL_PASSWORD=opencart_pswd##
+            - MYSQL_ROOT_PASSWORD=##_pswd_##
+    web:
+        build: ./opencart
+        depends_on:
+            - db
+        ports:
+          - "80:80"
+          - "443:443"
+        links:
+          - db
+        environment:
+            OPENCART_DB_HOST: db
+            OPENCART_DB_USER: opencart
+            OPENCART_DB_PASSWORD: opencart_pswd##
