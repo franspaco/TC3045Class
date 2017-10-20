@@ -7,6 +7,7 @@ services:
             - MYSQL_USER=opencart
             - MYSQL_PASSWORD=opencart_pswd##
             - MYSQL_ROOT_PASSWORD=##_pswd_##
+            - MYSQL_DATABASE=opencart
     web:
         build: ./opencart
         depends_on:

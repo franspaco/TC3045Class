@@ -1,9 +1,11 @@
 FROM tutum/apache-php:latest
+
 RUN apt-get update
 RUN apt-get install git -y
 RUN apt-get update
 RUN apt-get install wget -y
 RUN apt-get install unzip -y
+RUN apt-get install vim -y
 RUN rm -fr /app
 ADD . /app
 ADD . /stuff
